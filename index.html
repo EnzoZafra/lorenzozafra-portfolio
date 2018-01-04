@@ -189,20 +189,20 @@
               <p class="text-muted">A library to document and query network devices</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
-            </div>
-          </div>
+          <!--<div class="col-md-4 col-sm-6 portfolio-item">-->
+            <!--<a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">-->
+              <!--<div class="portfolio-hover">-->
+                <!--<div class="portfolio-hover-content">-->
+                  <!--<i class="fa fa-plus fa-3x"></i>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">-->
+            <!--</a>-->
+            <!--<div class="portfolio-caption">-->
+              <!--<h4>Window</h4>-->
+              <!--<p class="text-muted">Photography</p>-->
+            <!--</div>-->
+          <!--</div>-->
         </div>
       </div>
     </section>
@@ -409,14 +409,21 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2>Quirks</h2>
+                  <p class="item-intro text-muted">The application that allows you to track, encourage and share your habits.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p>Quirks is a group school project. It is an Android application which lets the user
+                  create habits to log events on the specified occurrence date and monitor their
+                  habits. An event can have images and/or a geolocation to revisit the event.
+                    To encourage the user to do their events, they can receive a collectible item
+                    that has various levels of rarity and can be traded to other users of the app.
+                  The project is written in Java using an ElasticSearch database. An object-oriented
+                  design is applied and multiple design patterns. View more information in the
+                    <a href="https://github.com/CMPUT301F17T12/Quirks/wiki" target="_blank">project wiki</a>
+                  </p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
+                    <li>Language: Java</li>
+                    <li>Date: December 2017</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -443,14 +450,22 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2>Reversi</h2>
+                  <p class="item-intro text-muted">Reversi is an 8x8 board game that features a MiniMax Algorithm AI</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p>
+                    Reversi is a strategy board game played on an 8x8 board. The project allows two users to play
+                    in a console against another player or a Minimax AI. More information about the game can be
+                    found <a href="https://en.wikipedia.org/wiki/Reversi" target="_blank">here</a>. The MiniMax is a
+                    recursive algorithm that repeatedly calculates scores over time and chooses the move which yields
+                    the maximum score. A value is associated with each state of the game. This value is computed by
+                    means of a position evaluation function (typically the max). The move that maximizes the minimum
+                    value of the position resulting from the opponent's possible following moves is the best move to take.
+                    More information can be found <a href="https://en.wikipedia.org/wiki/Minimax" target="_blank">here</a>.
+                  </p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
+                    <li>Language: Python</li>
+                    <li>Date: April 2016</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -477,14 +492,21 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2>Arduino RPM / Boost Gauge</h2>
+                  <p class="item-intro text-muted">Reads information from a car's ECU to be displayed to the user using an arduino.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p>
+                    This project combines by passion for coding and cars. Using an OBD-II adapter for an Arduino,
+                    I am able to pull information about the car such as speed, RPM, boost levels and oil temperature etc...
+                    This project pulls this information and displays it to the user using an LCD screen. Also, by setting
+                    various RPM levels, the gauge warns the user if they should switch gears when a certain RPM is reached.
+                    The adapter used to read information from the ECU provides regulated 5V output to provide power
+                    for the Arduino. The adapter itself gets power from the 12V DC output from the OBD-II port of the vehicle.
+                    This project is currently on going and is not yet finished.
+                  </p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
+                    <li>Language: C++</li>
+                    <li>Date: Ongoing</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -511,14 +533,23 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2>LibreNMS</h2>
+                  <p class="item-intro text-muted">Contributions to the open-source network monitoring system</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <p>
+                    <a href="https://www.librenms.org/" target="_blank">LibreNMS</a> is an open-source network monitoring
+                    system which allows automatic polling and discovery of a device and an alerting system out of many features.
+                    My contributions to LibreNMS includes the FDB table module. This module polls network devices' FDB
+                    tables and creates a table for the user to search using a MAC address and find the switch port
+                    that the device is connected to. This module was a heavily requested feature within the community.
+                    More information can be found <a href="https://github.com/librenms/librenms/pull/6616" target="_blank">here</a>.
+                    In addition, I also added support for network devices by the following manufacturers: Nokia, Alcatel-Lucent,
+                    Mitsubishi UPS, Etherwan, Hitachi SANs, Siemens switches, Opengear, Microsemi, Teradici PCoIPs, Chatsworth PDUs,
+                    ICT PDUs and PSUs, etc...
+                  </p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
+                    <li>Language: PHP, Javascript</li>
+                    <li>Date: August 2017</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -545,14 +576,14 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2>Model Library</h2>
+                  <p class="item-intro text-muted">A Windows application that assists MegaSys employees in documenting
+                  various network devices.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
                   <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                   <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
+                    <li>Language: C#</li>
+                    <li>Date: August 2016</li>
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
@@ -565,39 +596,39 @@
       </div>
     </div>
 
-    <!-- Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!--&lt;!&ndash; Modal 6 &ndash;&gt;-->
+    <!--<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">-->
+      <!--<div class="modal-dialog">-->
+        <!--<div class="modal-content">-->
+          <!--<div class="close-modal" data-dismiss="modal">-->
+            <!--<div class="lr">-->
+              <!--<div class="rl"></div>-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="container">-->
+            <!--<div class="row">-->
+              <!--<div class="col-lg-8 mx-auto">-->
+                <!--<div class="modal-body">-->
+                  <!--&lt;!&ndash; Project Details Go Here &ndash;&gt;-->
+                  <!--<h2>Project Name</h2>-->
+                  <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
+                  <!--<img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">-->
+                  <!--<p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>-->
+                  <!--<ul class="list-inline">-->
+                    <!--<li>Date: January 2017</li>-->
+                    <!--<li>Client: Window</li>-->
+                    <!--<li>Category: Photography</li>-->
+                  <!--</ul>-->
+                  <!--<button class="btn btn-primary" data-dismiss="modal" type="button">-->
+                    <!--<i class="fa fa-times"></i>-->
+                    <!--Close Project</button>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
