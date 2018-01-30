@@ -17,6 +17,9 @@ h4,
 h5,
 h6 {
     font-weight: 700;
-    line-height: 1.0;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
+
+#headerInfo {
+    line-height: 0.1;
+}
